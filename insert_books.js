@@ -131,8 +131,102 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
+  },
+
+//  add more books
+{
+    title:"atomic Habits",
+    author: "James Clear",
+    genre: "Self -help",
+    published_year: 2018,
+    price: 13.99,
+    in_stock: true,
+    pages: 319,
+    publisher: "Avery"
+},{
+     title:"Feel Good Productivity",
+    author: "Ali Abdaal",
+    genre: "Self -help",
+    published_year: 2022,
+    price: 14.95,
+    in_stock: true,
+    pages: 299,
+    publisher: "Avery"
+},{
+     title:"How to be a toic",
+    author: "Massimo Pigliucci",
+    genre: "Philosophy",
+    published_year: 2017,
+    price: 16.99,
+    in_stock: true,
+    pages: 239,
+    publisher: "Avery"
+},{
+     title:"Think and grow rich",
+    author: "Napoleon Hill",
+    genre: "Self -help",
+    published_year: 1937,
+    price: 132.85,
+    in_stock: true,
+    pages: 309,
+    publisher: "Avery"
+},{
+   title:"Think and grow rich",
+    author: "Napoleon Hill",
+    genre: "Self -help",
+    published_year: 1937,
+    price: 132.85,
+    in_stock: true,
+    pages: 309,
+    publisher: "Avery"
+},{
+    title:"The mid night library",
+    author: "Matt Haig",
+    genre: "Fiction",
+    published_year: 2020,
+    price: 16.99,
+    in_stock: true,
+    pages: 304,
+    publisher: "viking"
+},{ 
+    title:"Where the crawdads sing",
+    author: "Delia ownes",
+    genre: "Mystery",
+    published_year: 2018,
+    price: 24.99,
+    in_stock: false,
+    pages: 369,
+    publisher: "Putnam"
+},{
+    title:"educated",
+    author: "Tara westover",
+    genre: "2018",
+    published_year: 18.99,
+    price: 32.85,
+    in_stock: false,
+    pages: 339,
+    publisher: "Random House"
+},{
+    title:"The silent patient",
+    author: "Alex Michaelides",
+    genre: "Thriller",
+    published_year: 2019,
+    price: 21.85,
+    in_stock: true,
+    pages: 336,
+    publisher: "Celadon Books"
+},{
+    title:"Project hail mary",
+    author: "Andy Weir",
+    genre: "Fiction",
+    published_year: 2021,
+    price: 29.99,
+    in_stock: true,
+    pages: 359,
+    publisher: "Ballantine Books"
+},
 ];
+
 
 // Function to insert books into MongoDB
 async function insertBooks() {
