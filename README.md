@@ -14,12 +14,13 @@ Once you have Node.js installed, run the following commands in your directory:
 ```bash
 
 npm init -y
-
-
+```
+ ###  install mongodb driver
+```bash
 npm install mongodb
 ```
 
-## once you have completed all the set ups run the queries.js file
+## once you have completed all the set ups above run the queries.js file
 
 ```bash
 node queries.js
