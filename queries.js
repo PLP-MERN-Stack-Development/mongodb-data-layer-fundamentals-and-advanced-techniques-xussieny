@@ -21,35 +21,14 @@ async function main() {
     // Get reference to the books collection
     const booksCollection = db.collection('books');
 
-    // Task 2:  Basic CRUD Operations
-  //   // INSERT BOOK
-
-  // const insertResult = await booksCollection.insertOne({    
-  //   title:"The 1984",
-  //   author: "George Orwell",
-  //   genre: "Fiction",
-  //   published_year: 1961,
-  //   price: 19.99,
-  //   in_stock: true,
-  //   pages: 245,
-  //   publisher: "Ballantine Books"
-  //   });
-  //   console.log('Inserted document:', insertResult);
-
-// // CREATE
-// const creatBook = await Create({
-//     title: "Project hail mary",
-//     author: "Andy Weir",
-//     genre: "Fiction",
-//     published_year: 2021,
-//     price: 29.99,
-//     in_stock: true,
-//     pages: 359,
-//     publisher: "Ballantine Books"
-// });
+   
+    
 
 
 // ------------------------------------------------------
+ // Task 2:  Basic CRUD Operations
+
+
 // Task 2:  Basic CRUD Operations
 
 //find all books in specific genre
@@ -132,9 +111,6 @@ console.log('Books sorted by price (Descending):', booksPriceDescending);
 
 
 
-
-
-
 // Use the limit and skip methods to implement pagination (5 books per page)
 
 const booksPerPage = 5;
@@ -198,7 +174,6 @@ const booksPerPage = 5;
 
 
 
-
 //Create an aggregation pipeline to find the author with the most books in the collection
 
 const authorWithMostBooks =await booksCollection.aggregate([
@@ -252,7 +227,7 @@ console.log("'Books by publication decade:", decadeCount);
 
 
     // Task 5: Indexing
-    
+
 // Create an index on the title field for faster searches
 
     // Index on the 'title' field
